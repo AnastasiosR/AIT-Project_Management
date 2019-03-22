@@ -10,7 +10,9 @@ Link -> https://git-scm.com/download/mac
 
 ///////////////////////////////////////////////////////////////////
 
-All Git commands
+All Git commands listed below.
+
+
 Getting and creating Projects
 # git init  
 usage - > Initialize a git Repository
