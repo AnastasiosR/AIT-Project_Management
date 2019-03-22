@@ -3,10 +3,13 @@ Repo for our project.
 
 Wiki
 # To be able to use git, you need to download it on your computer .
-#Link for windows
+#Link for windows(bash)
 Link -> https://git-scm.com/download/win
-#Link for macOS
+#Link for macOS(bash)
 Link -> https://git-scm.com/download/mac
+
+# Link for git with GUI
+Link -> https://desktop.github.com/
 
 ///////////////////////////////////////////////////////////////////
 
