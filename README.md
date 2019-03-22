@@ -13,12 +13,12 @@ Link -> https://git-scm.com/download/mac
 All Git commands listed below.
 
 
-Getting and creating Projects
+1. Getting and creating Projects
 # git init  
 usage - > Initialize a git Repository
 # git clone ssh://git@github.com/[username]/[repository-name].git
 usage - > Create a local copy of a remote repository
-Basic Snapshotting
+2. Basic Snapshotting
 # git status
 usage - > Check Status
 # git add [filename.txt] 
@@ -27,6 +27,7 @@ usage - > add a file to the staging area
 usage - > Mention or Insert a message to your commit . (Output the change that you've made)
 # git rm -r [filename.txt]
 usage - > Remove a file or folder
+3. Branches and checkout
 # git branch	List branches (the asterisk denotes the current branch)
 # git branch -a	List all branches (local and remote)
 # git branch [branch name]	Create a new branch
@@ -37,20 +38,22 @@ usage - > Remove a file or folder
 # git checkout [branch name]	Switch to a branch
 # git checkout -	Switch to the branch last checked out
 # git checkout -- [file-name.txt]	Discard changes to a file
+4. Merging,stashing
 # git merge [branch name]	Merge a branch into the active branch
 # git merge [source branch] [target branch]	Merge a branch into a target branch
 # git stash	Stash changes in a dirty working directory
 # git stash clear	Remove all stashed entries
+5. Pushing/Pulling
 # git push origin [branch name]	Push a branch to your remote repository
 # git push -u origin [branch name]	Push changes to remote repository (and remember the branch)
 # git push	Push changes to remote repository (remembered branch)
 # git push origin --delete [branch name]	Delete a remote branch
 # git pull	Update local repository to the newest commit
 # git pull origin [branch name]	Pull changes from remote repository
+6. Adding a remote repo, set a repo's origin branch.
 # git remote add origin ssh://git@github.com/[username]/[repository-name].git	Add a remote repository
 # git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	Set a repository's origin branch to SSH
-# Inspection & Comparison
-# Command	Description
+7. Inspection & Comparison
 # git log	View changes
 # git log --summary	View changes (detailed)
 # git diff [source branch] [target branch]	Preview changes before merging
